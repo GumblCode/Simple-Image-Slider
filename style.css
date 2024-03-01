@@ -1,0 +1,26 @@
+body {
+	width: min-content;
+}
+
+.grid {
+  width: min-content;
+	height: 45vh;
+	margin-top: 17.5vh;
+	display: grid;
+	grid-auto-columns: 23.5vw; /* 25vw - gap - 1/2*gap */
+	grid-auto-flow: column;
+	gap: 2vw;
+
+}
+
+.grid__item {
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	border-radius: 2rem;
+}
+
+.grid__item:hover {
+	cursor: pointer;
+}
+
